@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+  integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>My Personal Portfolio Website </title>
+</head>
+
+
+<body>
+
+  <h1>Description</h1>
+  <article>
+    In this project,I will create a Personal Website using HTML only. The Website will show basic information about me.
+  </article>
+  <!-- Intro Section -->
+  <section>
+    <div>
+      <h2>My Introduction</h2>
+      <p>My Name is M.Kamran, I am currently a student at AUST University, pursuing a degree in Software Engineering.
+      </p>
+    </div>
+    <br>
+  </section>
+  <!-- About Section -->
+  <section>
+    <h3>About me</h3>
+    <p>I am a passionate and dedicated student with a strong interest in software development and programming. I enjoy
+      solving problems and creating innovative solutions.</p>
+      <hr>
+    <p> <i class="fab fa-linkedin"></i> My LinkedIn Profile: <a href="https://www.linkedin.com/in/mkamran"
+        target="_blank">LinkedIn</a></p>
+    </div>
+  </section>
+  <br>
+  <div>
+    <!-- Skills Section -->
+    <div>
+      <h3>My Skills</h3>
+      <ul>
+        <li>Programming Languages: <b>Python, Java, C++</b></li>
+        <li>Web Development: <b>HTML, CSS, JavaScript</b></li>
+        <li>Database Management: <b>MySQL, MongoDB</b></li>
+      </ul>
+    </div>
+    <br>
+    <hr>
+    <!-- Form -->
+    <div>
+      <h3>Contact Me</h3>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required
+          placeholder="Enter your message"></textarea><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+</body>
+
+</html>
