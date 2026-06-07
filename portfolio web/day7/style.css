@@ -1,0 +1,167 @@
+/* General Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Task 1 */
+
+.nav-container {
+    display: inline-flex;
+}
+
+.nav-item {
+    border: 1px solid black;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+/* ====Task 2 =====*/
+.product-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.product-box {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Task 3 */
+
+.card {
+    display: inline-grid;
+    border: 1px solid black;
+    padding: 10px;
+    width: 180px;
+    margin-right: 10px;
+}
+
+/* Task 4 */
+
+.student-table {
+    display: table;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Task 5 */
+
+.inline-data {
+    display: inline-table;
+    border: 1px solid black;
+}
+
+.data-row {
+    display: table-row;
+}
+
+.data-cell {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Task 6 */
+
+.row-builder {
+    display: table;
+}
+
+.builder-row {
+    display: table-row;
+}
+
+.builder-cell {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Task 7 */
+
+.wrapper {
+    display: contents;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Task 8 */
+
+.button-row {
+    display: inline-flex;
+}
+
+.button {
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.grid-item {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.badge-section {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+.badge-section span {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Bonus Dashboard .... */
+
+.dashboard {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.sidebar {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.main-content {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.action-buttons {
+    display: inline-flex;
+}
+
+.action-buttons span {
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.dashboard-table {
+    display: table;
+}
