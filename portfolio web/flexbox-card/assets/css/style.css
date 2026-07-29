@@ -73,3 +73,7 @@ body{
   cursor: pointer;
   font-size: 15px;
 }
+
+.card-content button:hover{
+  background: #0043ce;
+}
