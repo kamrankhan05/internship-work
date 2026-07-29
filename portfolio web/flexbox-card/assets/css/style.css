@@ -3,3 +3,73 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f6f8;
+  padding: 50px;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 320px; 
+  background: white;
+  border: 2px solid #e5e5e5;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card:hover{
+  border-color: #0f62fe;
+}
+
+.card-image{
+  height: 220px;
+  background-size:cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image1{
+  background-image:url("../image/image1.jpg");
+}
+
+.image2{
+  background-image: url("../image/image2.jpg");
+}
+
+.image3{
+  background-image: url("../image/image3.jpg");
+}
+
+.card-content{
+  padding: 22px;
+}
+
+.card-content h2{
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.card-content p{
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.card-content button{
+  padding: 12px 24px;
+  border: none;
+  background: #0f62fe;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
